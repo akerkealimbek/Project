@@ -1,0 +1,141 @@
+body{
+    background-color: #FCFCFC !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content {
+    flex: 1;
+}
+.container ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.container p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.logo a{
+    background: linear-gradient(#EA5F5F, #EA5F5F , #EA5F5F , #35A670, #35A670, #4DA5D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px !important;
+}
+.menu-link a{
+    transition-duration: 0.5s;
+}
+.menu-link a:hover {
+    color: #EA5F5F;
+    transition-duration: 0.5s;
+}
+.myslide img{
+    width: 100%;
+}
+#prev, #next{
+    display: none;
+}
+
+.sign-in-float{
+    width: 48%;
+}
+.sign-up-float{
+    width: 48%;
+}
+.styles-on li{
+    list-style: unset;
+}
+
+.all-cinemas-header{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.our_cinemas_item{
+    position: relative;
+    display: block;
+    margin-bottom: 1.875rem;
+}
+.bottom_text{
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    color: #fff;
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+.bottom_text h3{
+    padding: .625rem;
+    font-size: .875rem;
+}
+.hover_shadow img{
+    max-height: 274.576px;
+}
+.hover_shadow .chp_btn {
+    display: none;
+    flex-shrink: 0;
+}
+.hover_shadow:hover .chp_btn {
+    display: block;
+}
+.hover_shadow:hover .bottom_text h3{
+    font-size: 25px;
+}
+.hover_shadow:hover .bottom_text a{
+    font-size: 18px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.chp_btn:hover {
+    color: #fff;
+}
+.chp_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9375rem;
+    color: #fff;
+    background-color: #e31d24;
+    width: 10rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: .25rem;
+    border: none;
+    cursor: pointer;
+}
+.hover_shadow:hover .bottom_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.cinema_info_top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e31d24;
+    padding-top: 1.625rem;
+    padding-bottom: 1.75rem;
+}
+.cinema_contacts{
+    padding-top: .875rem !important;
+    padding-bottom: .75rem !important;
+    font-size: 20px;
+}
+.cinema_description{
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+}
